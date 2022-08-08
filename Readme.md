@@ -1,6 +1,7 @@
 ## Using Es6 export/import statements in jest
 
-to use this simple create an .babelrc file
+to use this simply create an .babelrc file
+add these lines to it
 
 ```
 {
@@ -10,4 +11,10 @@ to use this simple create an .babelrc file
     }
   }
 }
+```
+
+now install ECMAScript 6 transform plugin
+
+```
+npm install --save-dev @babel/plugin-transform-modules-commonjs
 ```
